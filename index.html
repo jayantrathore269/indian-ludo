@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dahati LOdo</title>
+    <link rel="stylesheet" href="ludoGame.css" />
+  </head>
+  <body>
+    <h1 id="heading">INDIAN LUDO</h1>
+    
+
+
+<div class="fullmain">
+ 
+    <div id="redBtn">
+  <button onclick="rollBtn('red')  ">🔴 Roll Dice</button>
+  <div class="mini-dice" id="redMiniDice" onclick="rollBtn('red')  "></div>
+  <p id="redYouGet">You got:</p>
+    </div>
+<div class="container">
+    <div id="greenBtn">
+  <button onclick="rollBtn('green')">🟢 Roll Dice</button>
+  <div class="mini-dice" id="greenMiniDice" onclick="rollBtn('green')  "></div>
+  <p id="greenYouGet">You got:</p>
+    </div>
+
+    <div class="grid-wrapper">
+      <div class="grid"></div>
+    </div>
+
+    <div id="blueBtn">
+  <button onclick="rollBtn('blue')">🔵 Roll Dice</button>
+  <div class="mini-dice" id="blueMiniDice"></div>
+  <p id="blueYouGet">You got:</p>
+    </div>
+    
+</div>
+
+<div id="yellowBtn">
+  <button onclick="rollBtn('yellow') ">🟡 Roll Dice</button>
+  <div class="mini-dice" id="yellowMiniDice"></div>
+  <p id="yellowYouGet">You got:</p>
+    </div>
+
+<div id="myDice">
+<div class="dice" id="dice" ></div></div>
+  
+</div>
+
+
+
+    <script src="ludoGame.js"></script>
+  </body>
+</html>
